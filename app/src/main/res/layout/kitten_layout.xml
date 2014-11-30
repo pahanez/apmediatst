@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<test.aipmedia.com.testaipmed.ui.KittenLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.etsy.android.grid.StaggeredGridView
+        android:id="@+id/gallery_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="-1px"
+        android:listSelector="@android:color/transparent"
+        app:item_margin="8dp"
+        />
+
+    <TextView
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/footer_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#333333"
+        android:gravity="center"
+        android:paddingBottom="8dip"
+        android:paddingLeft="16dip"
+        android:paddingRight="16dip"
+        android:paddingTop="8dip"
+        android:text="@string/reload"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/primary_text_dark" />
+
+</test.aipmedia.com.testaipmed.ui.KittenLayout>
